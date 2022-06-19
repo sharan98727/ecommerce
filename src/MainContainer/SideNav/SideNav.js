@@ -1,9 +1,9 @@
 import React from "react"
-import "./BottomNav.css"
+import "./SideNav.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBolt, faEllipsis, faFilter, faGear, faHistory, faLessThan, faMoon, faPercentage, faSquareEnvelope, faStar, faSun, faTableColumns, faWallet } from '@fortawesome/free-solid-svg-icons'
 
-function BottomNav(){
+function SideNav(){
     const monthNames = ["January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December" ],
         weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -19,13 +19,13 @@ function BottomNav(){
                     <h3>ProductsKart</h3>
                     <p>{`${weekday[new Date().getDay()]} ${new Date().getDate()} ${monthNames[new Date().getMonth()]}`}</p>
                 </div>
-                <div className="close-icon">
+                <div className="less-icon">
                     <FontAwesomeIcon icon={faLessThan} />
                 </div>
             </div>
             <div className="nav-header">
                 <div className="menu-name">
-                    <img className="image" src="http://dummyimage.com/70x79.png/cc0000/ffffff"/>
+                    <img className="image" alt="burger" src="http://dummyimage.com/70x79.png/cc0000/ffffff"/>
                     <h3>Burger</h3>
                 </div>
                 <div className="filter">
@@ -89,4 +89,4 @@ function BottomNav(){
     )
 }
 
-export default BottomNav
+export default SideNav

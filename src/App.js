@@ -1,10 +1,10 @@
 import './App.css';
-import BottomContainer from './BottomContainer';
+import MainContainer from './MainContainer';
 
 function App() {
   return (
     <>
-      <BottomContainer/>
+      <MainContainer/>
     </>
   );
 }

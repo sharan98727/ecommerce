@@ -92,10 +92,12 @@
     margin-right: 15px;
 }
 
-.close-icon {
+.less-icon {
     margin-left: auto;
-    background-color: gray;
-    padding: 0px;
+    background-color: rgb(174, 210, 216);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px 0px 5px 5px;
 }
 
 .company-name {

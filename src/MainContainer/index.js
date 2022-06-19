@@ -1,12 +1,12 @@
 import React from "react"
-import BottomNav from "./BottomNav/BottomNav"
+import SideNav from "./SideNav/SideNav"
 import "./index.css"
 import ProductsDisplayContainer from "./ProductsDisplayContainer/ProductsDisplayContainer"
 
 function BottomContainer(){
     return (
         <div className="bottom-container">
-            <BottomNav/>
+            <SideNav/>
             <ProductsDisplayContainer/>
         </div>
     )

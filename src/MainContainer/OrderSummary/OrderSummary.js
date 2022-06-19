@@ -36,7 +36,7 @@ function OrderSummary(props){
                 </div> <hr/>`
         })
         pdfDetails += `<p><b>Total: ${parseFloat(totalPrice)}</b></p><p><b>Tax (10%): ${parseFloat(taxes)}</b></p><p><b>Total(Including Taxes): ${parseFloat(totalPrice) + parseFloat(taxes)}</b></p>`
-        let pdfWindow = window.open("")
+        let pdfWindow = window.open("OrderSummary.pdf")
         pdfWindow.document.write(pdfDetails)
     }
 
@@ -70,7 +70,7 @@ function OrderSummary(props){
                     return (
                         <div className="product-item" key={item.id}>
                             <div>
-                                <img className="image-order" alt="sharan" src={item.image}/>
+                                <img className="image-order" alt={item.image} src={item.image}/>
                             </div>
                             <div>
                                 {item.name}
