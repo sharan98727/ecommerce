@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-In this Web Application the user can add items to his cart, remove items from his cart, increase the quantity or decrease the quantity of the item added in cart. He can also print the total bills by clicking on the button.
+**In this Web Application the user can add items to his cart, remove items from his cart, increase the quantity or decrease the quantity of the item added in cart. He can also print the total bills by clicking on the button.**
 
 ## Available Scripts
 
